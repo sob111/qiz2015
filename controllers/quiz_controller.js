@@ -14,5 +14,5 @@ exports.answer = function(req, res) {
 
 // GET /quizes/author
 exports.author = function(req, res) {
-    res.render('quizes/question', {author: 'Miguel Sánchez'});
+    res.render('quizes/author', {author: 'Miguel Sánchez'});
 };
